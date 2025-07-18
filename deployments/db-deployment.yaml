@@ -13,7 +13,7 @@ spec:
     metadata:
       name: db
       labels:
-        name: db
+        app: db
     spec:
       containers:
         - name: postgres
